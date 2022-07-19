@@ -1,0 +1,232 @@
+
+/* universe seclector start here */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* universe seclector ends here */
+
+
+/* header start here */
+
+.nav-section{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 100px;
+}
+
+nav ul{
+    display: flex;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    padding:15px
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black
+   
+}
+
+/* header ends here */
+
+
+/* first banner start here */
+
+.banner-section{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top:30px;
+    align-items: center;
+    grid-column-gap: 50px;
+}
+
+.nav-brand{
+    font-weight: 800px;
+    font-size:25px
+}
+
+.banner-text{
+    padding-left: 100px;
+}
+
+.banner-heading{
+    font-weight: 700;
+    font-size:52px;
+}
+
+.banner-img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.banner-img img{
+    width: 475px;
+    height:475px;
+    position: relative;
+    left: 20px;
+
+}
+
+.banner-btn{
+   
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    margin-top:10px;
+    border:none
+}
+
+
+/* first banner ends here */
+
+
+/* brand section start here */
+
+.brand-section{
+    padding:60px 100px 0px;
+}
+
+.brands{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-top:1px solid rgba(202, 190, 190, 0.2);
+    border-bottom:1px solid rgba(202, 190, 190, 0.2)
+}
+
+.brands-icon{
+    padding:30px;
+   
+}
+
+
+
+/* brand section ends here */
+
+
+/* card section start here */
+
+.card-section{
+    padding:60px 100px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+} 
+
+
+.card-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 330px;
+    height: 470px;
+    line-height: 35px;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px  rgb(232, 224, 224);
+}
+
+.card img{
+    width: 100%;
+}
+
+.see-more-text{
+    text-align: end;
+    padding-top:30px;
+    color:#E02C6D
+}
+
+
+/* card section ends here */
+
+
+/* last banner sec start here */
+
+.last-banner-section{
+    padding:60px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.last-banner-heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.last-banner-text{
+    padding:30px;
+    line-height: 30px;
+}
+
+.last-banner-btn{
+    position: relative;
+    background-color: #E02C6D;
+    width: 196px;
+    height: 44px;
+    margin-top: 20px    ;
+  
+    border-radius: 41px;
+    border:none
+
+}
+
+
+
+/* last banner sec ends here */
+
+
+
+/* footer sec start here */
+
+.footer-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 239px;
+    color:#fff;
+    background: #0A0826;
+    line-height: 35px;
+}
+
+.footer-sec h1{
+    padding:10px
+}
+
+.icon{
+    font-size:35px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* footer sec ends here */
+
+
+/* Mobile design start here */
+
+@media screen and (max-width:668px) {
+   
+    
+}
+
+/* Mobile design ends here */

@@ -1,0 +1,82 @@
+/* Mobile design start here */
+
+@media screen and (max-width:668px) {
+  
+    .nav-section{
+        
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding:20px;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    /* header sec */
+
+    .banner-section{
+        
+        display:flex;
+        flex-direction: column-reverse;
+        padding-top:30px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .banner-img img{
+        width: 100%;
+        padding:50px
+    }
+
+
+
+    .banner-text{
+        padding:50px;
+        text-align: center;
+    }
+
+    /* card start */
+
+    .card-section{
+        padding:60px 10px;
+    }
+
+    .container{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        grid-gap: 20px;
+    } 
+
+    .card{
+        width: 100%;
+        height: 600px;
+        line-height: 35px;
+        padding:10px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 20px  rgb(232, 224, 224);
+    }
+
+    /* last banner sec */
+
+    .last-banner-section{
+        padding:60px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+   
+    
+}
+
+/* Mobile design ends here */
